@@ -21,38 +21,6 @@ en starUMTL la variable se usa en un rectangulo.
 
 
 ## algoritmo
-´´´
 
-Sub impuestos()
-    pagar = Int(InputBox("valor a pagar por impuestos es: "))
-     If pagar > 0 And pagar <= 1000 Then
-        MsgBox ("su impuesto a pagar es: 0")
-     Else
-  If pagar > 1.001 And pagar <= 10000 Then
-     inpuesto = ((pagar * 0.5) / 100)
-     MsgBox ("pagar: " & inpuesto)
-  Else
-     If pagar > 10001 And pagar <= 100000 Then
-        inpuesto = (pagar * 10) / 100
-        MsgBox ("pagar: " & inpuesto)
-     Else
-       If pagar > 100001 And pagar <= 1000000 Then
-          inpuesto = (pagar * 15) / 100
-          MsgBox ("pagar: " & inpuesto)
-       Else
-          If pagar > 1000001 And pagar <= 10000000 Then
-             inpuesto = (pagar * 20) / 100
-             MsgBox ("pagar: " & inpuesto)
-          Else
-            If pagar > 10000001 Then
-               inpuesto = (pagar * 25) / 100
-               MsgBox ("pagar: " & inpuesto)
-            End If 
-      End If
-       End If
-        End If
-      End If
-     End If
-End Sub
+<a href="https://ibb.co/WfSHBnM"><![image](https://user-images.githubusercontent.com/110871046/186992597-202a63ac-a429-4fce-b16f-e16c07db776e.png)></a>
 
-´´´

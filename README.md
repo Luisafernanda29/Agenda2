@@ -22,6 +22,7 @@ en starUMTL la variable se usa en un rectangulo.
 
 ## algoritmo
 ´´´
+
 Sub impuestos()
 
     pagar = Int(InputBox("valor a pagar por impuestos es: "))
@@ -67,4 +68,5 @@ Sub impuestos()
 
 
 End Sub
+
 ´´´

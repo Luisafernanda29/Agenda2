@@ -41,12 +41,12 @@ Sub impuestos()
           MsgBox ("pagar: " & inpuesto)
        Else
           If pagar > 1000001 And pagar <= 10000000 Then
-          inpuesto = (pagar * 20) / 100
-          MsgBox ("pagar: " & inpuesto)
+             inpuesto = (pagar * 20) / 100
+             MsgBox ("pagar: " & inpuesto)
           Else
             If pagar > 10000001 Then
-            inpuesto = (pagar * 25) / 100
-            MsgBox ("pagar: " & inpuesto)
+               inpuesto = (pagar * 25) / 100
+               MsgBox ("pagar: " & inpuesto)
             End If 
       End If
        End If

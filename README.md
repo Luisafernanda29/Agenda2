@@ -27,3 +27,19 @@ en starUMTL la variable se usa en un rectangulo.
 ## Nuevo Item
 
 Con un texto
+
+## nuevo programa 
+
+```
+
+Sub lista()
+
+  For p = 2 To 21
+     nomb = Hoja1.Cells(p, 1)
+     ult = Len(nomb) - 1
+     Hoja1.Cells(p, 2) = Mid(nomb, ult, 2)
+  Next p
+  
+End Sub
+
+```
